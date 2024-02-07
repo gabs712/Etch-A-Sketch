@@ -18,7 +18,7 @@ function createGridElements(proportion) {
     gridElement.style.cssText = `
     width: ${gridElementDimension}px;
     height: ${gridElementDimension}px;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.3);
     background: white;
     `
     GRID.append(gridElement)
