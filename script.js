@@ -43,7 +43,7 @@ function changeGridSize(e) {
 function getGridSize() {
   while (true) {
     let size = prompt('What\'s the size of the Grid?')
-    if (size === null) return
+    if (size === null || size === '') return
 
     size = +size
     if (isNaN(size)) {
