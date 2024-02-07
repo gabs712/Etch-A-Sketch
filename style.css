@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: monospace;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 15px;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+header h1 {
+  font-size: 45px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+}
+main button {
+  font-size: 20px;
+  background: transparent;
+  padding: 5px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.grid {
+  box-sizing: content-box;
+  width: 500px;
+  height: 500px;
+  border: 2px solid rgb(114, 114, 114);
+}
